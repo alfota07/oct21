@@ -1,0 +1,1483 @@
+<!DOCTYPE html>
+
+<html lang="id">
+
+<head>
+
+  <meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0"
+
+>
+
+  <title>
+    Untuk Seseorang yang Spesial ♡
+  </title>
+
+  <!-- Google Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- CSS -->
+
+  <link
+    rel="stylesheet"
+    href="css/octa.css"
+  >
+
+</head>
+
+<body>
+
+  <div
+    id="envelopeIntro"
+    class="envelope-intro active"
+  >
+
+    <div class="envelope-card">
+
+      <div class="envelope-flap">
+        <div class="envelope-flap-half envelope-flap-left"></div>
+        <div class="envelope-flap-half envelope-flap-right"></div>
+      </div>
+
+      <div class="envelope-body">
+
+        <div class="envelope-letter">
+
+          <span class="envelope-small">
+            Surat spesial untukmu
+          </span>
+
+          <h1>
+            Buka amplop ini
+          </h1>
+
+          <p>
+            Sentuh tombol di bawah untuk memulai.
+          </p>
+
+          <button
+            id="envelopeOpenButton"
+            class="envelope-button"
+          >
+            Buka Amplop
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- ==================================================
+       CINEMATIC SCROLL PROGRESS
+  =================================================== -->
+
+  <div class="scroll-progress">
+
+
+<div class="progress-line">
+
+  <div
+    id="progressFill"
+    class="progress-fill"
+  ></div>
+
+</div>
+
+
+<div class="progress-dots">
+
+
+  <button
+    class="progress-dot active"
+    data-section="opening"
+    aria-label="Opening"
+  ></button>
+
+
+  <button
+    class="progress-dot"
+    data-section="birthday"
+    aria-label="Birthday"
+  ></button>
+
+
+  <button
+    class="progress-dot"
+    data-section="beginning"
+    aria-label="Beginning"
+  ></button>
+
+
+  <button
+    class="progress-dot"
+    data-section="knowing-you"
+    aria-label="Knowing You"
+  ></button>
+
+
+  <button
+    class="progress-dot"
+    data-section="smile"
+    aria-label="Smile"
+  ></button>
+
+
+  <button
+    class="progress-dot"
+    data-section="little-things"
+    aria-label="Little Things"
+  ></button>
+
+
+  <button
+    class="progress-dot"
+    data-section="memory"
+    aria-label="Memory"
+  ></button>
+
+
+  <button
+    class="progress-dot"
+    data-section="gallery"
+    aria-label="Gallery"
+  ></button>
+
+
+  <button
+    class="progress-dot"
+    data-section="thank-you"
+    aria-label="Thank You"
+  ></button>
+
+
+  <button
+    class="progress-dot"
+    data-section="tired"
+    aria-label="For You"
+  ></button>
+
+
+  <button
+    class="progress-dot"
+    data-section="admire"
+    aria-label="Admire"
+  ></button>
+
+
+  <button
+    class="progress-dot"
+    data-section="admire-video"
+    aria-label="Video Spesial"
+  ></button>
+
+
+  <button
+    class="progress-dot"
+    data-section="hope"
+    aria-label="Hope"
+  ></button>
+
+
+  <button
+    class="progress-dot"
+    data-section="future"
+    aria-label="Future"
+  ></button>
+
+
+  <button
+    class="progress-dot"
+    data-section="letter"
+    aria-label="Letter"
+  ></button>
+
+
+  <button
+    class="progress-dot"
+    data-section="final"
+    aria-label="Final"
+  ></button>
+
+
+</div>
+
+
+<div
+  id="progressLabel"
+  class="progress-label"
+>
+  Opening
+</div>
+
+
+  </div>
+
+  <!-- ==================================================
+       CINEMATIC OVERLAY
+  =================================================== -->
+
+  <div
+    id="cinematicOverlay"
+    class="cinematic-overlay"
+  ></div>
+
+  <!-- ==================================================
+       FLOATING HEARTS
+  =================================================== -->
+
+  <div
+    id="hearts"
+    class="hearts"
+  ></div>
+
+  <!-- ==================================================
+       MUSIC
+  =================================================== -->
+
+<audio
+  id="audio"
+  loop
+  preload="auto"
+  autoplay
+  muted
+>
+
+  <source
+    src="audio/perahu_kertaz.mp3"
+    type="audio/mpeg"
+  >
+
+</audio>
+
+<button
+id="musicButton"
+class="music-button"
+aria-label="Putar musik"
+
+>
+
+
+🎵
+
+
+  </button>
+
+  <!-- ==================================================
+       SECTION 1 — OPENING
+  =================================================== -->
+
+  <section
+    id="opening"
+    class="story-section opening"
+  >
+
+
+<div class="story-content">
+
+
+  <div class="fade">
+
+    <span class="eyebrow">
+      Ada sesuatu yang ingin kusampaikan...
+    </span>
+
+    <h1>
+      Untukmu
+    </h1>
+
+    <p>
+      Sebelum kamu melanjutkan scroll ke bawah,
+      aku ingin kamu tahu bahwa halaman kecil ini
+      dibuat khusus untuk seseorang yang sangat berarti.
+    </p>
+
+    <div class="scroll-hint">
+
+      ↓
+
+      <br>
+
+      Scroll perlahan
+
+    </div>
+
+  </div>
+
+
+</div>
+
+
+  </section>
+
+  <!-- ==================================================
+       SECTION 2 — BIRTHDAY
+  =================================================== -->
+
+  <section
+    id="birthday"
+    class="story-section"
+  >
+
+
+<div class="story-content">
+
+
+  <div class="fade">
+
+    <span class="chapter">
+      Chapter 01
+    </span>
+
+    <span class="eyebrow">
+      Hari yang spesial
+    </span>
+
+    <h2>
+      Happy Birthday
+    </h2>
+
+    <div class="divider"></div>
+
+    <p>
+      Selamat ulang tahun untuk kamu,
+      seseorang yang kehadirannya mampu membuat
+      hari-hari biasa terasa sedikit lebih istimewa.
+    </p>
+
+    <p>
+      Hari ini adalah tentang kamu.
+      Tentang perjalananmu,
+      tentang semua hal yang sudah kamu lewati,
+      dan tentang semua hal indah yang masih menunggumu
+      di depan sana.
+    </p>
+
+    <p>
+      Semoga bertambahnya usia bukan hanya tentang angka,
+      tetapi juga tentang semakin banyak alasan
+      untuk tersenyum dan merasa bahagia.
+    </p>
+
+  </div>
+
+
+</div>
+
+
+  </section>
+
+  <!-- ==================================================
+       SECTION 3 — BEGINNING
+  =================================================== -->
+
+  <section
+    id="beginning"
+    class="story-section photo-section"
+  >
+
+
+<div class="story-content">
+
+
+  <div class="fade">
+
+    <span class="chapter">
+      Chapter 02
+    </span>
+
+    <span class="eyebrow">
+      Kalau mengingat semuanya...
+    </span>
+
+    <h2>
+      Awal Cerita
+    </h2>
+
+
+    <div class="photo-wrap parallax">
+
+      <img
+        src="img/awal.jpg"
+        alt="Kenangan pertama"
+      >
+
+    </div>
+
+
+    <p>
+      Ada banyak hal yang awalnya terlihat sederhana,
+      tetapi ternyata menjadi bagian penting
+      dari perjalanan hidup kita.
+    </p>
+
+    <p>
+      Mungkin saat pertama kali semuanya dimulai,
+      kita tidak pernah tahu akan sampai sejauh ini.
+      Tidak pernah tahu bahwa percakapan sederhana,
+      pertemuan kecil, atau momen yang terlihat biasa
+      bisa berubah menjadi sebuah kenangan
+      yang begitu berarti.
+    </p>
+
+  </div>
+
+
+</div>
+
+
+  </section>
+
+  <!-- ==================================================
+       SECTION 4 — KNOWING YOU
+  =================================================== -->
+
+  <section
+    id="knowing-you"
+    class="story-section soft-pink"
+  >
+
+
+<div class="story-content">
+
+
+  <div class="fade">
+
+    <span class="chapter">
+      Chapter 03
+    </span>
+
+    <span class="eyebrow">
+      Semakin mengenalmu
+    </span>
+
+    <h2>
+      Tentang Kamu
+    </h2>
+
+
+    <div class="photo-wrap parallax">
+
+      <img
+        src="img/2.jpg"
+        alt="Tentang kamu"
+      >
+
+    </div>
+
+
+    <p>
+      Semakin lama mengenalmu,
+      semakin aku sadar bahwa ada begitu banyak
+      hal kecil tentang dirimu yang membuatmu istimewa.
+    </p>
+
+    <p>
+      Cara kamu berbicara,
+      cara kamu tertawa,
+      cara kamu menghadapi sesuatu,
+      bahkan kebiasaan-kebiasaan kecil yang mungkin
+      tidak kamu sadari.
+    </p>
+
+    <p class="small-quote">
+      "Ternyata, mengenalmu adalah salah satu
+      hal paling indah yang pernah terjadi."
+    </p>
+
+  </div>
+
+
+</div>
+
+
+  </section>
+
+  <!-- ==================================================
+       SECTION 5 — SMILE
+  =================================================== -->
+
+  <section
+    id="smile"
+    class="story-section"
+  >
+
+
+<div class="story-content">
+
+
+  <div class="fade">
+
+    <span class="chapter">
+      Chapter 04
+    </span>
+
+    <span class="eyebrow">
+      Salah satu hal favoritku
+    </span>
+
+    <h2>
+      Senyummu
+    </h2>
+
+
+    <div class="photo-wrap parallax">
+
+      <img
+        src="img/3.jpg"
+        alt="Senyummu"
+      >
+
+    </div>
+
+
+    <p>
+      Kalau ada satu hal sederhana yang selalu
+      bisa membuat suasana terasa lebih baik,
+      mungkin salah satunya adalah senyummu.
+    </p>
+
+    <p>
+      Senyum yang mungkin bagimu biasa saja,
+      tetapi entah bagaimana selalu memiliki cara
+      untuk membuat dunia terasa sedikit lebih ringan.
+    </p>
+
+    <p>
+      Jadi, kalau suatu hari kamu merasa lelah,
+      semoga kamu selalu ingat bahwa senyummu
+      adalah sesuatu yang sangat berharga.
+    </p>
+
+  </div>
+
+
+</div>
+
+
+  </section>
+
+  <!-- ==================================================
+       SECTION 6 — LITTLE THINGS
+  =================================================== -->
+
+  <section
+    id="little-things"
+    class="story-section"
+  >
+
+
+<div class="story-content">
+
+
+  <div class="fade">
+
+    <span class="chapter">
+      Chapter 05
+    </span>
+
+    <span class="eyebrow">
+      ♥♥♥♥♥♥♥♥
+    </span>
+
+    <h2>
+      Little Things
+    </h2>
+
+
+    <div class="memory-grid">
+
+
+      <div class="memory-card">
+
+        <span>
+          ♡
+        </span>
+
+        <h3>
+          Laugh
+        </h3>
+
+        <p>
+          Suara tawamu yang terkadang
+          muncul dari hal-hal sederhana.
+        </p>
+
+      </div>
+
+
+      <div class="memory-card">
+
+        <span>
+          ✦
+        </span>
+
+        <h3>
+          Stories
+        </h3>
+
+        <p>
+          Percakapan panjang yang mungkin
+          tidak selalu memiliki tujuan,
+          tetapi selalu menyenangkan.
+        </p>
+
+      </div>
+
+
+      <div class="memory-card">
+
+        <span>
+          ✨
+        </span>
+
+        <h3>
+          Presence
+        </h3>
+
+        <p>
+          Sekadar mengetahui bahwa kamu ada
+          terkadang sudah cukup membuat hari terasa lebih baik.
+        </p>
+
+      </div>
+
+
+    </div>
+
+
+    <p class="small-quote">
+      "Ternyata kebahagiaan sering bersembunyi
+      di balik hal-hal kecil."
+    </p>
+
+  </div>
+
+
+</div>
+
+
+  </section>
+
+  <!-- ==================================================
+       SECTION 7 — MEMORY
+  =================================================== -->
+
+  <section
+    id="memory"
+    class="story-section photo-section"
+  >
+
+
+<div class="story-content">
+
+
+  <div class="fade">
+
+    <span class="chapter">
+      Chapter 06
+    </span>
+
+    <span class="eyebrow">
+      Sebuah kenangan
+    </span>
+
+    <h2>
+      Bit Memories that I won't Forget
+    </h2>
+
+
+    <div class="photo-wrap parallax">
+
+      <img
+        src="img/6.jpg"
+        alt="Kenangan"
+      >
+
+    </div>
+
+
+    <p>
+      Ada beberapa momen yang mungkin terlihat
+      sederhana bagi orang lain,
+      tetapi memiliki tempat khusus di dalam ingatan.
+    </p>
+
+    <p>
+      Momen-momen yang ketika diingat kembali
+      mampu membawa perasaan yang sama seperti
+      saat semuanya terjadi.
+    </p>
+
+    <p>
+      Dan entah berapa banyak waktu yang akan berlalu,
+      aku berharap kenangan-kenangan baik itu
+      akan selalu menjadi bagian indah dari cerita kita.
+    </p>
+
+  </div>
+
+
+</div>
+
+
+  </section>
+
+  <!-- ==================================================
+       SECTION 8 — GALLERY
+  =================================================== -->
+
+  <section
+    id="gallery"
+    class="story-section gallery-section"
+  >
+
+
+<div class="story-content">
+
+
+  <div class="fade">
+
+    <span class="chapter">
+      Chapter 07
+    </span>
+
+    <span class="eyebrow">
+      Potongan kecil dari cerita
+    </span>
+
+    <h2>
+      Cerita Kita
+    </h2>
+
+
+    <div class="gallery">
+
+
+      <div class="gallery-item parallax">
+
+        <img
+          src="img/c71.jpg"
+          alt="Kenangan 1"
+        >
+
+      </div>
+
+
+      <div class="gallery-item parallax">
+
+        <img
+          src="img/c72.jpg"
+          alt="Kenangan 2"
+        >
+
+      </div>
+
+
+      <div class="gallery-item parallax">
+
+        <img
+          src="img/c73_copy.jpg"
+          alt="Kenangan 3"
+        >
+
+      </div>
+
+
+      <div class="gallery-item parallax">
+
+        <img
+          src="img/c74_copy.jpg"
+          alt="Kenangan 4"
+        >
+
+      </div>
+
+
+    </div>
+
+
+    <p>
+      Setiap foto mungkin hanya menangkap
+      satu detik dari waktu yang pernah kita lalui.
+    </p>
+
+    <p>
+      Tetapi di balik setiap gambar,
+      selalu ada cerita,
+      percakapan,
+      tawa,
+      dan perasaan yang tidak bisa sepenuhnya
+      dijelaskan hanya dengan sebuah foto.
+    </p>
+
+  </div>
+
+
+</div>
+
+
+  </section>
+
+  <!-- ==================================================
+       SECTION 9 — THANK YOU
+  =================================================== -->
+
+  <section
+    id="thank-you"
+    class="story-section"
+  >
+
+
+<div class="story-content">
+
+
+  <div class="fade">
+
+    <span class="chapter">
+      Chapter 08
+    </span>
+
+    <span class="eyebrow">
+      Terima kasih
+    </span>
+
+    <h2>
+      Untuk Semuanya
+    </h2>
+
+    <div class="divider"></div>
+
+    <p>
+      Terima kasih sudah hadir.
+    </p>
+
+    <p>
+      Terima kasih untuk semua tawa,
+      semua cerita,
+      semua percakapan,
+      dan semua momen yang pernah kita lalui.
+    </p>
+
+    <p>
+      Terima kasih karena tanpa kamu sadari,
+      kamu sudah menjadi bagian dari banyak
+      hal baik yang pernah terjadi.
+    </p>
+
+    <p class="big-quote">
+      "Terima kasih telah menjadi kamu."
+    </p>
+
+  </div>
+
+
+</div>
+
+
+  </section>
+
+  <!-- ==================================================
+       SECTION 10 — FOR YOU
+  =================================================== -->
+
+  <section
+    id="tired"
+    class="story-section dark-section"
+  >
+
+
+<div class="story-content">
+
+
+  <div class="fade">
+
+    <span class="chapter">
+      Chapter 09
+    </span>
+
+    <span class="eyebrow">
+      Kalau suatu hari kamu lelah
+    </span>
+
+    <h2>
+      Istirahatlah
+    </h2>
+
+    <p>
+      Kamu tidak harus selalu kuat.
+    </p>
+
+    <p>
+      Tidak apa-apa kalau suatu hari kamu ingin berhenti
+      sebentar dan mengambil waktu untuk dirimu sendiri.
+    </p>
+
+    <p>
+      Tidak apa-apa kalau kamu merasa tidak baik-baik saja.
+    </p>
+
+    <p>
+      Aku hanya ingin kamu tahu bahwa kamu tidak harus
+      menghadapi semuanya sendirian.
+    </p>
+
+    <p class="big-quote">
+      "Pelan-pelan saja.
+      Kamu tidak sedang berlomba dengan siapa pun."
+    </p>
+
+  </div>
+
+
+</div>
+
+
+  </section>
+
+  <!-- ==================================================
+       SECTION 11 — ADMIRE
+  =================================================== -->
+
+  <section
+    id="admire"
+    class="story-section"
+  >
+
+
+<div class="story-content">
+
+
+  <div class="fade">
+
+    <span class="chapter">
+      Chapter 10
+    </span>
+
+    <span class="eyebrow">
+      Ada sesuatu yang ingin kukatakan
+    </span>
+
+    <h2>
+      Aku Mengagumimu
+    </h2>
+
+
+    <div class="photo-wrap parallax">
+
+      <img
+        src="img/9.jpeg"
+        alt="Seseorang yang dikagumi"
+      >
+
+    </div>
+
+
+    <p>
+      Aku mengagumimu bukan karena kamu harus menjadi
+      seseorang yang sempurna.
+    </p>
+
+    <p>
+      Aku mengagumimu karena kamu adalah dirimu sendiri.
+      Dengan segala kelebihan,
+      kekurangan,
+      perjuangan,
+      dan proses yang sedang kamu jalani.
+    </p>
+
+    <p>
+      Dan aku berharap kamu juga bisa melihat
+      dirimu sendiri sebagaimana aku melihatmu:
+      seseorang yang berharga.
+    </p>
+
+  </div>
+
+
+</div>
+
+
+  </section>
+
+  <!-- ==================================================
+       SECTION 12 — ADMIRE VIDEO
+  =================================================== -->
+
+  <section
+    id="admire-video"
+    class="story-section"
+  >
+
+
+  <div class="story-content">
+
+
+    <div class="fade">
+
+      <span class="chapter">
+        Chapter 11
+      </span>
+
+      <span class="eyebrow">
+        Sebuah momen pendek untukmu
+      </span>
+
+      <h2>
+        Quick moment
+      </h2>
+
+      <div class="photo-wrap parallax">
+
+        <video
+          class="story-video"
+          src="img/myvid.mp4"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+        >
+          Maaf, browser Anda tidak mendukung video.
+        </video>
+
+      </div>
+
+      <p>
+        Aku menyiapkan video singkat ini hanya untukmu.
+        Semoga setiap detik kecilnya membawa senyuman.
+        Forgive me that I cant attend your special moment, 
+        I know it's totally my fault (:
+      </p>
+
+    </div>
+
+
+  </div>
+
+
+  </section>
+
+  <!-- ==================================================
+       SECTION 13 — HOPE
+  =================================================== -->
+
+  <section
+    id="hope"
+    class="story-section"
+  >
+
+
+<div class="story-content">
+
+
+  <div class="fade">
+
+    <span class="chapter">
+      Chapter 11
+    </span>
+
+    <span class="eyebrow">
+      Doa kecil untukmu
+    </span>
+
+    <h2>
+      Harapanku Untukmu
+    </h2>
+
+    <p>
+      Semoga tahun ini membawa lebih banyak
+      kebahagiaan daripada kesedihan.
+    </p>
+
+    <p>
+      Semoga kamu menemukan banyak alasan
+      untuk tersenyum setiap hari.
+    </p>
+
+    <p>
+      Semoga semua hal yang sedang kamu perjuangkan
+      perlahan menemukan jalannya.
+    </p>
+
+    <p>
+      Semoga kamu selalu dikelilingi oleh orang-orang
+      yang tulus menyayangimu.
+    </p>
+
+    <p>
+      Dan yang paling penting,
+      semoga kamu tidak pernah lupa
+      betapa berharganya dirimu.
+    </p>
+
+
+    <button
+      id="wishButton"
+      class="wish-button"
+    >
+      Klik untuk satu harapan lagi ♡
+    </button>
+
+
+    <p
+      id="wishText"
+      class="wish-text"
+    ></p>
+
+
+  </div>
+
+
+</div>
+
+
+  </section>
+
+  <!-- ==================================================
+       SECTION 13 — FUTURE
+  =================================================== -->
+
+  <section
+    id="future"
+    class="story-section"
+  >
+
+
+<div class="story-content">
+
+
+  <div class="fade">
+
+    <span class="chapter">
+      Chapter 12
+    </span>
+
+    <span class="eyebrow">
+      Tentang hari-hari untuk masa depan kita.
+    </span>
+
+    <h2>
+      Our Future
+    </h2>
+
+
+    <div class="photo-wrap parallax">
+
+      <img
+        src="img/13.jpg"
+        alt="Masa depan"
+      >
+
+    </div>
+
+
+    <p>
+      Kita tidak pernah tahu apa yang akan terjadi
+      besok, minggu depan, atau bertahun-tahun dari sekarang.
+    </p>
+
+    <p>
+      Mungkin jalan kita akan membawa kita
+      ke banyak tempat yang berbeda.
+      Mungkin akan ada banyak hal yang berubah.
+    </p>
+
+    <p>
+      Tetapi untuk sekarang,
+      aku hanya ingin menikmati setiap momen
+      yang masih bisa kita jalani bersama.
+    </p>
+
+    <p class="big-quote">
+      "Semoga cerita baik masih memiliki
+      banyak halaman untuk ditulis."
+    </p>
+
+  </div>
+
+
+</div>
+
+
+  </section>
+
+  <!-- ==================================================
+       SECTION 14 — LETTER
+  =================================================== -->
+
+  <section
+    id="letter"
+    class="story-section letter-section"
+  >
+
+
+<div class="story-content">
+
+
+  <div class="fade">
+
+
+    <span class="chapter">
+      Chapter 13
+    </span>
+
+
+    <div class="letter-box">
+
+
+      <h2>
+        Surat Kecil Untukmu
+      </h2>
+
+
+      <div class="divider"></div>
+
+
+      <p>
+        Hai, kamu.
+      </p>
+
+
+      <p>
+        Kalau kamu sudah sampai sejauh ini,
+        berarti kamu sudah membaca cukup banyak
+        kata-kata yang sebenarnya sulit untuk
+        aku sampaikan secara langsung.
+      </p>
+
+
+      <p>
+        Aku mungkin tidak selalu pandai mengatakan
+        apa yang aku rasakan.
+        Kadang ada banyak hal yang hanya tersimpan
+        di kepala dan tidak pernah benar-benar
+        keluar menjadi kata-kata.
+      </p>
+
+
+      <p>
+        Tapi hari ini aku ingin kamu tahu,
+        bahwa keberadaanmu memiliki arti.
+      </p>
+
+
+      <p>
+        Aku berharap ulang tahunmu kali ini
+        membawa sesuatu yang berbeda.
+        Sesuatu yang membuatmu merasa dicintai,
+        dihargai,
+        dan diingat.
+      </p>
+
+
+      <p>
+        Jangan pernah merasa bahwa kamu tidak cukup.
+        Jangan terlalu keras kepada dirimu sendiri.
+        Kamu sudah melakukan yang terbaik
+        sejauh ini.
+      </p>
+
+
+      <p>
+        Jadi, di hari spesialmu ini,
+        aku hanya ingin mengucapkan satu hal:
+      </p>
+
+
+      <p class="big-quote">
+        Selamat ulang tahun.
+        Terima kasih sudah menjadi bagian
+        dari cerita yang begitu berarti.
+      </p>
+
+
+      <p>
+        Semoga perjalananmu ke depan
+        dipenuhi banyak hal baik.
+      </p>
+
+
+      <div class="signature">
+
+        Dari seseorang
+        yang selalu mendoakanmu ♡
+
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+
+</div>
+
+
+  </section>
+
+  <!-- ==================================================
+       SECTION 15 — FINAL
+  =================================================== -->
+
+  <section
+    id="final"
+    class="story-section final-section"
+  >
+
+
+<div class="story-content">
+
+
+  <div class="fade">
+
+    <span class="eyebrow">
+      Dan akhirnya...
+    </span>
+
+
+    <h2>
+      Happy Birthday
+    </h2>
+
+
+    <p>
+      Semoga hari ini,
+      besok,
+      dan hari-hari setelahnya
+      selalu menemukanmu dalam keadaan bahagia.
+    </p>
+
+
+    <p class="big-quote">
+      "Ini mungkin adalah akhir dari halaman ini,
+      tetapi semoga bukan akhir dari cerita indahmu."
+    </p>
+
+
+    <div class="divider"></div>
+
+
+    <p>
+      ♡
+    </p>
+
+
+    <p>
+      Sampai jumpa di cerita berikutnya.
+    </p>
+
+    <div class="swipe-gallery" aria-label="Galeri foto swipeable">
+      <div class="swipe-header">
+        <span class="eyebrow">Ulu ulu ulul ulu</span>
+        <div class="swipe-controls">
+          <button class="swipe-button swipe-prev" type="button" aria-label="Foto sebelumnya">‹</button>
+          <button class="swipe-button swipe-next" type="button" aria-label="Foto berikutnya">›</button>
+        </div>
+      </div>
+
+      <div class="swipe-viewport">
+        <div class="swipe-track">
+          <div class="swipe-slide"><img src="gomb1/t1.jpg" alt="Kenangan 1" /></div>
+          <div class="swipe-slide"><img src="gomb1/t2.jpg" alt="Kenangan 2" /></div>
+          <div class="swipe-slide"><img src="gomb1/t3.jpg" alt="Kenangan 3" /></div>
+          <div class="swipe-slide"><img src="gomb1/t4.jpg" alt="Kenangan 4" /></div>
+          <div class="swipe-slide"><img src="gomb1/t5.jpg" alt="Kenangan 5" /></div>
+          <div class="swipe-slide"><img src="gomb1/t6.jpg" alt="Kenangan 6" /></div>
+        </div>
+      </div>
+
+      <div class="swipe-dots" aria-label="Navigasi galeri">
+        <button class="swipe-dot active" type="button" aria-label="Lihat foto 1"></button>
+        <button class="swipe-dot" type="button" aria-label="Lihat foto 2"></button>
+        <button class="swipe-dot" type="button" aria-label="Lihat foto 3"></button>
+        <button class="swipe-dot" type="button" aria-label="Lihat foto 4"></button>
+        <button class="swipe-dot" type="button" aria-label="Lihat foto 5"></button>
+        <button class="swipe-dot" type="button" aria-label="Lihat foto 6"></button>
+      </div>
+    </div>
+
+    <div class="single-video-header">
+      <span class="eyebrow">Need puk puk with peluk</span>
+    </div>
+
+    <div class="single-video-card" aria-label="Video spesial tambahan">
+      <video src="gomb2/v11.mp4" autoplay muted loop playsinline preload="auto"></video>
+    </div>
+
+    <div class="swipe-gallery video-swipe-gallery" aria-label="Galeri video swipeable">
+      <div class="swipe-header">
+        <span class="eyebrow">For my little life partner</span>
+        <div class="swipe-controls">
+          <button class="swipe-button swipe-prev" type="button" aria-label="Video sebelumnya">‹</button>
+          <button class="swipe-button swipe-next" type="button" aria-label="Video berikutnya">›</button>
+        </div>
+      </div>
+
+      <div class="swipe-viewport">
+        <div class="swipe-track">
+          <div class="swipe-slide"><video src="gomb2/v1.mp4" autoplay muted loop playsinline preload="auto"></video></div>
+          <div class="swipe-slide"><video src="gomb2/v2.mp4" autoplay muted loop playsinline preload="auto"></video></div>
+          <div class="swipe-slide"><video src="gomb2/v3.mp4" autoplay muted loop playsinline preload="auto"></video></div>
+          <div class="swipe-slide"><video src="gomb2/v4.mp4" autoplay muted loop playsinline preload="auto"></video></div>
+          <div class="swipe-slide"><video src="gomb2/v5.mp4" autoplay muted loop playsinline preload="auto"></video></div>
+          <div class="swipe-slide"><video src="gomb2/v6.mp4" autoplay muted loop playsinline preload="auto"></video></div>
+          <div class="swipe-slide"><video src="gomb2/v7.mp4" autoplay muted loop playsinline preload="auto"></video></div>
+          <div class="swipe-slide"><video src="gomb2/v8.mp4" autoplay muted loop playsinline preload="auto"></video></div>
+          <div class="swipe-slide"><video src="gomb2/v9.mp4" autoplay muted loop playsinline preload="auto"></video></div>
+          <div class="swipe-slide"><video src="gomb2/v10.mp4" autoplay muted loop playsinline preload="auto"></video></div>
+        </div>
+      </div>
+
+      <div class="swipe-dots" aria-label="Navigasi video galeri">
+        <button class="swipe-dot active" type="button" aria-label="Lihat video 1"></button>
+        <button class="swipe-dot" type="button" aria-label="Lihat video 2"></button>
+        <button class="swipe-dot" type="button" aria-label="Lihat video 3"></button>
+        <button class="swipe-dot" type="button" aria-label="Lihat video 4"></button>
+        <button class="swipe-dot" type="button" aria-label="Lihat video 5"></button>
+        <button class="swipe-dot" type="button" aria-label="Lihat video 6"></button>
+        <button class="swipe-dot" type="button" aria-label="Lihat video 7"></button>
+        <button class="swipe-dot" type="button" aria-label="Lihat video 8"></button>
+        <button class="swipe-dot" type="button" aria-label="Lihat video 9"></button>
+        <button class="swipe-dot" type="button" aria-label="Lihat video 10"></button>
+      </div>
+    </div>
+
+
+  </div>
+
+
+</div>
+
+
+  </section>
+
+  <!-- ==================================================
+       JAVASCRIPT
+  =================================================== -->
+
+  <script
+    src="js/script.js"
+  ></script>
+
+</body>
+
+</html>
